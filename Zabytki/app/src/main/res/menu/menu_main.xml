@@ -3,8 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.radek.zabytki.MainActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/miCompose"
+        android:icon="@drawable/plus_math-48"
+        app:showAsAction="ifRoom"
+        android:title="Compose"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/przycisk1"
+        android:icon="@drawable/settings-48"
+        app:showAsAction="ifRoom"
+        android:title="droga"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/nawiguj"
+        android:icon="@drawable/Actions-arrow-right-icon"
+        app:showAsAction="ifRoom"
+        android:title="kalendarz">
+    </item>
 </menu>
