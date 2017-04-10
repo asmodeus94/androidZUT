@@ -4,22 +4,23 @@
     tools:context="com.radek.zabytki.MainActivity">
     <item
         android:id="@+id/miCompose"
-        android:icon="@drawable/plus_math-48"
+        android:icon="@drawable/plus_math_48"
         app:showAsAction="ifRoom"
-        android:title="Compose"
+        android:title="@string/toolbar_addPlace"
         android:visible="true">
     </item>
     <item
         android:id="@+id/przycisk1"
-        android:icon="@drawable/settings-48"
+        android:icon="@drawable/settings_48"
         app:showAsAction="ifRoom"
-        android:title="droga"
+        android:title="@string/toolbar_settings"
         android:visible="true">
     </item>
     <item
         android:id="@+id/nawiguj"
-        android:icon="@drawable/Actions-arrow-right-icon"
+        android:icon="@drawable/actions_arrow_right_icon"
         app:showAsAction="ifRoom"
-        android:title="kalendarz">
+        android:title="@string/toolbar_navigate"
+        android:visible="true">
     </item>
 </menu>

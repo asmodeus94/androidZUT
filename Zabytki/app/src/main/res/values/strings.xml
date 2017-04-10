@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Zabytki</string>
     <string name="action_settings">Settings</string>
+    <string name="toolbar">Pasek</string>
+    <string name="toolbar_addPlace">Dodaj miejsce</string>
+    <string name="toolbar_settings">Ustawienia</string>
+    <string name="toolbar_navigate">Nawiguj</string>
+    <string name="button1">Guzik 1</string>
+    <string name="button2">Guzik 2</string>
+    <string name="button3">Guzik 3</string>
+    <string name="button4">Guzik 4</string>
+
 </resources>
