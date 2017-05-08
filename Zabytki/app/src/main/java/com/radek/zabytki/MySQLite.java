@@ -12,7 +12,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class MySQLite extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String DATABASE_NAME = "monumentsDB";
     private static final String TABLE_NAME = "monuments";
 
@@ -28,7 +28,8 @@ public class MySQLite extends SQLiteOpenHelper {
                         "name text not null," +
                         "description text not null," +
                         "longitude real not null," +
-                        "latitude real not null);";
+                        "latitude real not null," +
+                        "url text not null);";
         database.execSQL(DATABASE_CREATE);
     }
 
@@ -45,6 +46,7 @@ public class MySQLite extends SQLiteOpenHelper {
         values.put("description", monument.getDescription());
         values.put("longitude", monument.getLongitude());
         values.put("latitude", monument.getLatitude());
+        values.put("url", monument.getUrl());
         db.insert(TABLE_NAME, null, values);
     }
 
@@ -60,6 +62,7 @@ public class MySQLite extends SQLiteOpenHelper {
         values.put("description", monument.getDescription());
         values.put("longitude", monument.getLongitude());
         values.put("latitude", monument.getLatitude());
+        values.put("url", monument.getUrl());
         int i = db.update(TABLE_NAME, values, "_id = ?", new String[]{String.valueOf(monument.getId())});
         db.close();
         return i;
@@ -70,8 +73,8 @@ public class MySQLite extends SQLiteOpenHelper {
         Cursor cursor =
                 db.query(TABLE_NAME,
                         new String[]{"_id",
-                                "name", "description", "longitude", "latitude"},
-                        " id = ?", // selections
+                                "name", "description", "longitude", "latitude", "url"},
+                        "_id = ?", // selections
                         new String[]{
                                 String.valueOf(id)}, // selections args
                         null, // group by
@@ -82,7 +85,7 @@ public class MySQLite extends SQLiteOpenHelper {
             cursor.moveToFirst();
         }
         Monument monument = new Monument(
-                cursor.getString(1), cursor.getString(2), cursor.getFloat(3), cursor.getFloat(4)
+                cursor.getString(1), cursor.getString(2), cursor.getFloat(3), cursor.getFloat(4), cursor.getString(5)
         );
         monument.setId(Integer.parseInt(cursor.getString(0)));
         return monument;

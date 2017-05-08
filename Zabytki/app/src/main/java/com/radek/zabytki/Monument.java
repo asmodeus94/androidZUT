@@ -12,17 +12,19 @@ public class Monument implements Serializable {
     private String description;
     private double longitude;
     private double latitude;
+    private String url;
 
     public Monument(String string, String cursorString, float aFloat, String s) {
     }
 
 
-    public Monument(String name, String description, double longitude, double latitude) {
+    public Monument(String name, String description, double longitude, double latitude, String url) {
         super();
         this.name = name;
         this.description = description;
         this.longitude = longitude;
         this.latitude = latitude;
+        this.url = url;
     }
 
     public int getId() {
@@ -65,9 +67,17 @@ public class Monument implements Serializable {
         this.latitude = latitude;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     @Override
     public String toString() {
         return "Zabytek: [id=" + id + ", nazwa=" + name + ", opis=" + description + "," +
-                " dlugosc_geograficzna=" + longitude + ", szerokosc_geograficzna=" + latitude + "]";
+                " dlugosc_geograficzna=" + longitude + ", szerokosc_geograficzna=" + latitude + ", link_do_zdjecia=" + url + "]";
     }
 }

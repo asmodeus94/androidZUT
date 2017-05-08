@@ -1,10 +1,12 @@
 package com.radek.zabytki;
 
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,8 +26,11 @@ public class MainActivity extends AppCompatActivity {
         // przyklad dodania zabytku do bazy
         MySQLite mySQLite = new MySQLite(this);
         mySQLite.dodaj(
-                new Monument("nazwa zabytku", "opis zabytku", 53.43143213, 27.4246841)
+                new Monument("nazwa zabytku", "opis zabytku", 53.43143213, 27.4246841, "https://www.google.pl/")
         );
+        Monument monument = mySQLite.pobierz(1);
+
+        Log.d("DB", monument.getUrl());
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
