@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // przyklad dodania zabytku do bazy
+        MySQLite mySQLite = new MySQLite(this);
+        mySQLite.dodaj(
+                new Monument("nazwa zabytku", "opis zabytku", 53.43143213, 27.4246841)
+        );
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
