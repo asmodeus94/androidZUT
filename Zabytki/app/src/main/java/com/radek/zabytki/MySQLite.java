@@ -36,7 +36,7 @@ public class MySQLite extends SQLiteOpenHelper {
 
     private void momumentsInit() {
         dodaj(
-                new Monument("Nowy Ratusz, ob. Pomorska Akademia Medyczna", "https://pl.wikipedia.org/wiki/Pomorski_Uniwersytet_Medyczny_w_Szczecinie", 53.42299, 14.554408, "")
+                new Monument("Nowy Ratusz, ob. Pomorska Akademia Medyczna", "https://pl.wikipedia.org/wiki/Pomorski_Uniwersytet_Medyczny_w_Szczecinie", 53.42299, 14.554408, "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pomeranian_Medical_Academy_in_Szczecin.jpg")
         );
 
         dodaj(
