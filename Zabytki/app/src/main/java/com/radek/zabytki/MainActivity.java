@@ -1,5 +1,6 @@
 package com.radek.zabytki;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
 //        Monument monument = mySQLite.pobierz(1);
 //        momumentsInit();
 //        Log.d("DB", monument.getUrl());
+
+        final Button button = (Button) findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intencja = new Intent(getApplicationContext(), Map.class);
+                startActivity(intencja);
+            }
+        });
 
     }
 
