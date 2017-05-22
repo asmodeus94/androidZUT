@@ -194,7 +194,85 @@ public class MySQLite extends SQLiteOpenHelper {
         dodaj(
                 new Monument("Dom (kamienica)", "", 53.4617424, 14.5617283, "")
         );
+        //Błażej
+        dodaj(
+                new Monument("Tzw. Krużganek Mariacki", "Pierwotnie składał się z czterech skrzydeł, z których do czasów współczesnych zachowało się tylko wschodnie skrzydło, w tym w piwnicy i na parterze gotyckie mury. Jest to jedyna pozostałość po kolegiacie Mariackiej. Odbudowany po zniszczeniach drugiej wojny światowej. Obecnie mieści się tu biuro Towarzystwa Budownictwa Społecznego ” Prawobrzeże” Spółka z o.o., Mariacka 24.", 53.427619, 14.556795, "https://pl.wikipedia.org/wiki/Plik:Szczecin_Kruzganek_Mariacki.jpg")
+        );
 
+        dodaj(
+                new Monument("Elektrownia", "zwany także (niezbyt trafnie) „budynkiem starej transformatorowni”, lub „elektrownią przy ulicy Świętego Ducha”. Od 2 sierpnia 2013 mieści się w nim centrum sztuki współczesnej zwane Trafostacją Sztuki w Szczecinie, w skrócie TRAFO.", 53.422597, 14.556759, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Sw_Ducha_dawna_elektrownia.jpg")
+        );
+
+        dodaj(
+                new Monument("Pałac Joński", "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Jo%C5%84ski_w_Szczecinie", 53.42583, 14.554229, "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Jo%C5%84ski_w_Szczecinie#/media/File:PalacJonskiWSzczecinie.jpg")
+        );
+
+        dodaj(
+                new Monument("Sąd Krajowy, ob. Sąd Okręgowy", "Jego budowę zkończono w 1935 roku; poczatkowo słuzył jako Miejska Kasa Oszczędności (Sparrkasse). Po drugiej wojnie światowej budynek stał się siedzibą Komitetu Wojewódzkiego PZPR. W czasie wydarzeń grudniowych 1970 roku pod budynkiem zebrał się 20-tysięczny tłum protestujących. Budynek został podpalony, sprzęty i portrety przywódców wyrzucone przez okna. Starcia na ulicach Szczecina trwały do godz. 22. Tego dnia w Szczecinie w zajściach zginęło 16 osób, a ponad 100 osób zostało rannych.", 53.4285438, 14.5528116, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Kaszubska_42_Sad.jpg")
+        );
+
+        dodaj(
+                new Monument("Dom ogrodnika", "Drewniany domek francuski, stojący przy ulicy Storrady 2 został zbudowany w 1928 r. przy cmentarzu gminy francuskiej. Cmentarz powstał XVIII w. na prośbę Francuzów mieszkających w Szczecinie, użytkowany był do 1937 r. Zlokalizowano go między ulicami Storrady, Kapitańską, Parkową i Wawelską. Budynek nazywany jest obecnie domkiem grabarza, chociaż tak naprawdę został wybudowany dla ogrodnika cmentarnego. W 2007 r. został wpisany do rejestru zabytków. To ciekawe miejsce jest obecnie siedzibą stowarzyszenia \"Klub Storrady\", które odremontowało obiekt i organizuje w nim imprezy kulturalne.", 53.4321615, 14.5685645, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Storrady_dom_ogrodnika.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół św. Jana Ewangelisty", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Ewangelisty_w_Szczecinie", 53.422237, 14.557649, "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Ewangelisty_w_Szczecinie#/media/File:1009_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw_Jana_Ewangelisty_Szczecin.jpg")
+        );
+
+        dodaj(
+                new Monument("Kamienica (z 3 oficynami)", "Najpiękniejsza secesyjna kamienica Szczecina, znajdująca się przy ul. św. Wojciecha 1, powstała w 1904 roku dla Alberta Netza, właściciela Cesarsko – Królewskiej Firmy Spedycyjnej z Berlina. Projekt kamienicy został wykonany przez Fridericha Liebergesell, architekta, który cieszył się wówczas przychylnością miejscowych przedsiębiorców i notabli. Był jednym z niewielu w mieście, który wprowadził w dekoracji fasad swoich budowli nowoczesny i mało popularny wówczas w Szczecinie styl secesji. Przy ul. św. Wojciecha zastosował połączenie dwóch nurtów secesyjnych – geometrycznego z roślinno-figuralnym, dzięki czemu na fasadzie pojawia się niezwykle bogaty repertuar wzorów. Linearne sploty łodyg, liści i kwiatów połączone zostały z wzorami geometrycznymi. Płyciny balkonowe i nadokienne zdobi płynna, falująca linia. W zwieńczeniu portalu spoczywają dwie wydłużone sylwety orłów. Ugięte skrzydła ptaków tworzą jednolitą wstęgę miękko układających się linii. Z narożników ostatniego piętra spoglądają na przechodniów zagadkowo zamyślone twarze kobiece, otoczone gęstymi puklami włosów. Na podwórko kamienicy prowadzi wąska brama, której ściany zdobi barwna glazura i sztukaterie, wśród których zwracają uwagę zatrzymane w bezruchu chrząszcze z opuszczonymi ku dołowi skrzydłami. Na parterze kamienicy, również w podwórku, znajdują się galerie i antykwariat.", 53.42631, 14.547943, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_sw_Wojciecha_1_zabytek.jpg")
+        );
+
+        dodaj(
+                new Monument("Budynek podstacji energetycznej", "W 1873 r. przy Falkenwalderstraße 95 (dzisiejsza al. Wojska Polskiego 74) wybudowano wg projektu architekta Keslera, drewniany dom wraz ze stajnią położoną wewnątrz dziedzińca dla Johannesa Quistorpa.", 53.435478, 14.538017, "https://pl.wikipedia.org/wiki/Plik:Szczecin_al_Wojska_Polskiego_74_stacja_energetyczna.jpg")
+        );
+
+        dodaj(
+                new Monument("Budynek Archiwum Państwowego", "https://pl.wikipedia.org/wiki/Archiwum_Pa%C5%84stwowe_w_Szczecinie", 53.430074, 14.549294, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_sw_Wojciecha_13_zabytek.jpg")
+        );
+        dodaj(
+                new Monument("Rektorat Uniwersytetu Szczecińskiego", "Obecny budynek rektoratu Uniwersytetu Szczecińskiego, mieszczący się przy al. Papieża Jana Pawła II 22 a (niem. Kaiser-Wilhelm-Straße ) obok skrzyżowania z ul. Wielkopolską (niem. Deutsche Straße), wybudowano w latach 1886-1888[2] według projektu Richarda Rönnebecka z Nassau[3] z przeznaczeniem na budynek Gimnazjum Króla Wilhelma (niem. König-Wilhelms-Gymnasium). Budowa sfinansowana została w dużej mierze przez Johanna Quistorpa. Poprzednia siedziba szkoły poświęcona 11 października 1880 roku przy obecnej ul.Wielkopolskiej 14 szybko okazała się za ciasna. Zdecydowano wówczas o budowie na tej samej parceli dodatkowego budynku usytuowanego od strony obecnej al. Papieża Jana Pawła II. Dnia 12 kwietnia 1888 roku nastąpiło uroczyste poświęcenie gmachu i oddanie go do użytku. W 1903 roku do kompleksu istniejących gmachów doszła dodatkowo hala sportowa od strony ul. Mieczysława Niedziałkowskiego. W czasie II wojny światowej zniszczeniu uległ dach budynku, spłonęły też wnętrza.", 53.436542, 14.544734, "https://pl.wikipedia.org/wiki/Plik:Szczecin_Rektorat_Uniwersytetu_Szczecinskiego.jpg")
+        );
+
+        dodaj(
+                new Monument("Rektorat Uniwersytetu Szczecińskiego", "Obecny budynek rektoratu Uniwersytetu Szczecińskiego, mieszczący się przy al. Papieża Jana Pawła II 22 a (niem. Kaiser-Wilhelm-Straße ) obok skrzyżowania z ul. Wielkopolską (niem. Deutsche Straße), wybudowano w latach 1886-1888[2] według projektu Richarda Rönnebecka z Nassau[3] z przeznaczeniem na budynek Gimnazjum Króla Wilhelma (niem. König-Wilhelms-Gymnasium). Budowa sfinansowana została w dużej mierze przez Johanna Quistorpa. Poprzednia siedziba szkoły poświęcona 11 października 1880 roku przy obecnej ul.Wielkopolskiej 14 szybko okazała się za ciasna. Zdecydowano wówczas o budowie na tej samej parceli dodatkowego budynku usytuowanego od strony obecnej al. Papieża Jana Pawła II. Dnia 12 kwietnia 1888 roku nastąpiło uroczyste poświęcenie gmachu i oddanie go do użytku. W 1903 roku do kompleksu istniejących gmachów doszła dodatkowo hala sportowa od strony ul. Mieczysława Niedziałkowskiego. W czasie II wojny światowej zniszczeniu uległ dach budynku, spłonęły też wnętrza.", 53.436542, 14.544734, "https://pl.wikipedia.org/wiki/Plik:Szczecin_Rektorat_Uniwersytetu_Szczecinskiego.jpg")
+        );
+
+        dodaj(
+                new Monument("Pałac Pod Globusem", "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Pod_Globusem_w_Szczecinie", 53.426098, 14.554294, "https://pl.wikipedia.org/wiki/Plik:Pa%C5%82ac_pod_Globusem_w_Szczecinie.JPG")
+        );
+
+        dodaj(
+                new Monument("Kościół św. Kazimierza", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Kazimierza_w_Szczecinie", 53.453762, 14.531347, "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Broniewskiego_Kosciol_sw_Kazimierza.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół św. Józefa Oblubieńca Najświętszej Maryi Panny", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._J%C3%B3zefa_Oblubie%C5%84ca_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Szczecinie", 53.407922, 14.534945, "https://pl.wikipedia.org/wiki/Plik:Szczecin_kosciol_sw_Jozefa_(1).jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół Świętego Krzyża", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tego_Krzy%C5%BCa_w_Szczecinie", 53.43855, 14.51053, "https://pl.wikipedia.org/wiki/Plik:Szczecin_kosciol_Swietego_Krzyza_ul_Wieniawskiego.jpg")
+        );
+
+        dodaj(
+                new Monument("Kamienica", "Ta eklektyczna kamienica przy ul. Piłsudskiego 7 (koło stacji benzynowej) została zbudowana w 1894 r. według projektu szczecińskiego architekta Jerzego Sommenstuhla. Od lat 20. XX w. funkcjonowała w niej piekarnia. Wojnę budynek przetrwał nienaruszony. Pierwszy powojenny remont rozpoczął się na początku lat 70. W czasie tego remontu na strychu wybuchł pożar dlatego nie zachował się oryginalny szczyt budynku. W roku 2006 mieszkańcy kamienicy przeprowadzili jej kapitalny remont.", 53.432553, 14.551246, "http://bi.gazeta.pl/im/6/11070/z11070876Q,Fragment-zabytkowej-kamienicy.jpg")
+        );
+
+        dodaj(
+                new Monument("Budynek Zakładu dla Głuchoniemych", "Na ul. Siemiradzkiego 2 w Szczecinie stoi neogotycki budynek wzniesiony w 1904 r., dawna siedziba zakładu dla głuchoniemych. Fundatorem był Martin Quistorp. Obecnie mieści się tu Gimnazjum nr 10, wcześniej od 1955 r. była tam Szkoła Podstawowa nr 32, która po reformie w 1999 r. została zastąpiona gimnazjum.", 53.448366, 14.513538, "http://www.polskaniezwykla.pl/pictures/original/276723.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół Matki Bożej Różańcowej", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Matki_Bo%C5%BCej_R%C3%B3%C5%BCa%C5%84cowej_w_Szczecinie", 53.411159, 14.495236, "https://pl.wikipedia.org/wiki/Plik:Szczecin_kosciol_MB_Rozancowej_ul_Lwowska.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół Niepokalanego Serca Najświętszej Marii Panny", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Niepokalanego_Serca_Naj%C5%9Bwi%C4%99tszej_Marii_Panny_w_Szczecinie", 53.493723, 14.603443, "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Niepokalanego_Serca_Naj%C5%9Bwi%C4%99tszej_Marii_Panny_w_Szczecinie#/media/File:Szczecin_ul_Nehringa_kosciol_a.jpg")
+        );
+
+        dodaj(
+                new Monument("Willa Lentza", "https://pl.wikipedia.org/wiki/Willa_Lentza", 53.435495, 14.546417, "https://pl.wikipedia.org/wiki/Willa_Lentza#/media/File:Szczecin_al_Wojska_Polskiego_84_Willa_Lentza.jpg")
+        );
 
     }
 
