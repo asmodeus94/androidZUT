@@ -342,6 +342,166 @@ public class MySQLite extends SQLiteOpenHelper {
                 new Monument("Plac Tobrucki, d. Plac Ratuszowy (Marktplatz)", "http://encyklopedia.szczecin.pl/wiki/Plac_Ratuszowy", 53.4214986, 14.5533364, "https://media-cdn.tripadvisor.com/media/photo-s/08/1c/20/8a/plac-tobrucki.jpg")
         );
 
+        dodaj(
+                new Monument("Port wolnocłowy - Łasztownia", "https://pl.wikipedia.org/wiki/%C5%81asztownia", 53.470523, 14.5736917,"")
+
+        );
+        dodaj(
+                new Monument("Zespół dworski Sienno", "http://www.polskiezabytki.pl/m/obiekt/7777/Szczecin_-_Dwor__ul._Laczna_4_/", 53.4184073, 14.566093,"")
+
+        );
+        dodaj(
+                new Monument("Zespół portowej straży pożarnej", "http://www.port.szczecin.pl/pl/porty/bezpieczenstwo/portowa-sluzba-ratownicza/zadania-psr#", 53.417576, 14.569226,"")
+
+        );
+        dodaj(
+                new Monument("Zespół zajezdni tramwajowej", "Jest to zespół budynków dawnej zajezdni tramwajowej", 53.44032, 14.533949,"")
+
+        );
+        dodaj(
+                new Monument("Zagroda pastora", "zagroda pastora obok domu parafialnego wraz z budynkiem gospodarczym", 53.493896, 14.600877,"")
+
+        );
+        dodaj(
+                new Monument("Zespół dworca kolejowego Szczecin Niebuszewo", "https://pl.wikipedia.org/wiki/Szczecin_Niebuszewo_(stacja_kolejowa)", 53.4285438, 14.5528116,"")
+
+        );
+        dodaj(
+                new Monument("Zespół komendantury twierdzy", "https://pl.wikipedia.org/wiki/Twierdza_Szczecin", 53.421602, 14.551271,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "https://pl.wikipedia.org/wiki/Willa_Hoerdera_w_Szczecinie\n", 53.446662, 14.517005,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "https://pl.wikipedia.org/wiki/Willa_Lentza", 53.450007, 14.516327,"")
+
+        );
+        dodaj(
+                new Monument("Zespół szkoły, ob. LO", "http://lo14.szczecin.pl/", 53.434562, 14.527459,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "willa wraz z dziedzińcem folwarcznym i parkiem dworskim", 53.438469, 14.534863,"")
+
+        );
+        dodaj(
+                new Monument("Zespół szpitala", "http://www.szpital-zdroje.szczecin.pl/zdroje/swiadczenia-medyczne/przychodnia-specjalistyczna-ul-slowackiego-19/zespol-specjalistycznych-poradni-dla-kobiet/", 53.440682, 14.552352,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://www.domkepinskich.ubf.pl/news.php", 53.433822, 14.540296,"")
+
+        );
+        dodaj(
+                new Monument("Zespół d. gimnazjum męskiego, ob. I LO", "https://pl.wikipedia.org/wiki/I_Liceum_Og%C3%B3lnokszta%C5%82c%C4%85ce_im._Marii_Sk%C5%82odowskiej-Curie_w_Szczecinie", 53.429157, 14.537289, "")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://encyklopedia.szczecin.pl/wiki/Willa_przy_ulicy_Mickiewicza_2", 53.449377, 14.517628,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://zabytki.ocalicodzapomnienia.eu/zabytek-2-19-1-2132.html", 53.43692, 14.537984,"")
+
+        );
+        dodaj(
+                new Monument("Zespół Domów Profesorskich", "https://pl.wikipedia.org/wiki/Domki_Profesorskie_w_Szczecinie", 53.4274473, 14.5571865,"")
+
+        );
+        dodaj(
+                new Monument("Zespół kościoła ewang., ob. rzym.-kat. par. pw. Matki Boskiej Nieustającej Pomocy", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Matki_Bo%C5%BCej_Nieustaj%C4%85cej_Pomocy_w_Szczecinie", 53.468333, 14.590731,"")
+
+        );
+        dodaj(
+                new Monument("Zespół domu", "https://pl.wikipedia.org/wiki/Dom_Grotha_w_Szczecinie", 53.437366, 14.571323,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://spzozsw.pl/przychodnie/przychodnia-specj/", 53.439133, 14.535713,"")
+
+        );
+        dodaj(
+                new Monument("Zespół fabryki cykorii", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Swiatowida_75-76_zabytek.jpg", 53.468185, 14.597909,"")
+
+        );
+        dodaj(
+                new Monument("Zespół wiaty przystanku tramwajowego i kiosku nastawniczego", "http://www.mkm.szczecin.pl/encyklopedia/lasarkonski", 53.45737, 14.51827,"")
+
+        );
+        dodaj(
+                new Monument("Zespół tarasów widokowych", "https://pl.wikipedia.org/wiki/Wa%C5%82y_Chrobrego", 53.42997, 14.56525,"")
+
+        );
+        dodaj(
+                new Monument("Zespół Cmentarza Centralnego", "https://pl.wikipedia.org/wiki/Cmentarz_Centralny_w_Szczecinie", 53.4171457, 14.5225421,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Piotra_Skargi_14_willa.jpg", 53.44238, 14.539287,"")
+
+        );
+        dodaj(
+                new Monument("Zespół loży masońskiej Trzech Cyrkli, ob. Teatr Polski", "http://encyklopedia.szczecin.pl/wiki/Teatr_Polski_(Szczecin)", 53.433708, 14.570542,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "https://pl.wikipedia.org/wiki/Willa_Hoerdera_w_Szczecinie", 53.436003, 14.53746,"")
+
+        );
+        dodaj(
+                new Monument("Zespół kościoła, obecnie kościół p.w. NMP Matki Kościoła", "https://pl.wikipedia.org/wiki/Parafia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_Matki_Ko%C5%9Bcio%C5%82a_w_Bezrzeczu", 53.34113, 14.75055,"")
+
+        );
+        dodaj(
+                new Monument("Budynki z kompleksu d. fabryki Stoewera", "https://pl.wikipedia.org/wiki/Stoewer", 53.445869, 14.545044,"")
+
+        );
+        dodaj(
+                new Monument("Zespół poczty", "https://pl.wikipedia.org/wiki/Poczta_nr_2_w_Szczecinieu", 53.421199, 14.555022,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://www.dioblina.eu/Willa_przy_Pola_3", 53.451376, 14.51588,"")
+
+        );
+        dodaj(
+                new Monument("Zespół kościoła par. p.w. św. Maksymiliana Kolbe", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Maksymiliana_Marii_Kolbego_w_Szczecinie", 53.396341, 14.528829,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "https://pl.wikipedia.org/wiki/Willa_Nellego_w_Szczecinie", 53.444785, 14.542358,"")
+
+        );
+        dodaj(
+                new Monument("Zespół kościoła par. p.w. Św. Trójcy", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tej_Tr%C3%B3jcy_w_Szczecinie_(Krzekowo)", 53.449381, 14.484718,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willi", "http://encyklopedia.szczecin.pl/wiki/Willa_przy_ulicy_Konopnickiej_27", 53.438752, 14.508103,"")
+
+        );
+        dodaj(
+                new Monument("Zespół rzeźni miejskiej", "https://pl.wikipedia.org/wiki/Stara_Rze%C5%BAnia_w_Szczecinie", 53.4256599, 14.568195,"")
+
+        );
+        dodaj(
+                new Monument("Zespół mieszkalno-przemysłowy", "", 53.4338087, 14.531023,"")
+
+        );
+        dodaj(
+                new Monument("Zespół straży pożarnej", "http://www.straz.szczecin.pl/", 53.425458, 14.552816,"")
+
+        );
+        dodaj(
+                new Monument("Zespół willowy", "http://encyklopedia.szczecin.pl/wiki/Willa_przy_alei_Wojska_Polskiego_115", 53.441167, 14.531758,"")
+
+        );
+        dodaj(
+                new Monument("Zespół dworski", "http://szczecin.wyborcza.pl/szczecin/56,34939,10849918,dworek-i-kosciol,,2.html?disableRedirects=true", 53.400939, 14.489629,"")
+
+        );
 
 }
 
