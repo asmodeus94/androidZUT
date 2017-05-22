@@ -273,8 +273,77 @@ public class MySQLite extends SQLiteOpenHelper {
         dodaj(
                 new Monument("Willa Lentza", "https://pl.wikipedia.org/wiki/Willa_Lentza", 53.435495, 14.546417, "https://pl.wikipedia.org/wiki/Willa_Lentza#/media/File:Szczecin_al_Wojska_Polskiego_84_Willa_Lentza.jpg")
         );
+        //Kinga K.
+        dodaj(
+                new Monument("Kościół par., ob. archikatedra p.w. św. Jakuba", "https://pl.wikipedia.org/wiki/Bazylika_archikatedralna_%C5%9Bw._Jakuba_w_Szczecinie", 53.42508, 14.55672, "https://upload.wikimedia.org/wikipedia/commons/1/1c/Szczecin_katedra_sw_Jakuba_%282%29.jpg")
+        );
 
-    }
+        dodaj(
+                new Monument("Kościół par. p.w. św. Jana Chrzciciela", "https://pl.wikipedia.org/wiki/Bazylika_%C5%9Bw._Jana_Chrzciciela_w_Szczecinie", 53.427149, 14.548767, "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Szczecin_kosciol_Jana_Chrzciciela_2.jpg/800px-Szczecin_kosciol_Jana_Chrzciciela_2.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół rzym.-kat. ob. pol.-kat. p.w. śś. Piotra i Pawła", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Piotra_i_%C5%9Bw._Paw%C5%82a_w_Szczecinie", 53.427818, 14.559791, "https://upload.wikimedia.org/wikipedia/commons/8/8c/KosciolSwPiotraIPawla_w_Szczecinie.jpg")
+        );
+
+        dodaj(
+                new Monument("Kościół ewangelicki (tzw. kościół pokoju), ob.rzym.-kat. p.w. św. Stanisława Kostki", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Stanis%C5%82awa_Kostki_w_Szczecinie", 53.438485, 14.566617, "https://upload.wikimedia.org/wikipedia/commons/1/1f/Szczecin_Kosciol_Sw_Stanislawa_Kostki.jpg")
+        );
+
+        dodaj(
+                new Monument("Plac Jasne Błonia im. Jana Pawła II (niem. Quinstorp-Aue)", "https://pl.wikipedia.org/wiki/Jasne_B%C5%82onia", 53.4285438, 14.5528116, "https://upload.wikimedia.org/wikipedia/commons/6/6b/0907_Szczecin_Jane_B%C5%82onia_SZN.jpg")
+        );
+
+        dodaj(
+                new Monument("Kasyno oficerskie, ob. szkoła", "http://encyklopedia.szczecin.pl/wiki/Kasyno_wojskowe", 53.423071, 14.549747, "http://fotopolska.eu/foto/216/216718.jpg")
+        );
+
+        dodaj(
+                new Monument("Elektrownia miejska", "Elektrownia miejska ob. biurowiec", 53.432067, 14.568865, "https://www.e-biurowce.pl/cache/b/b/3/8/7/bb38718cc30024e44807c30f3779e5126d9ddf39.jpeg")
+        );
+
+        dodaj(
+                new Monument("Muzeum Miejskie, ob. Muzeum Narodowe i Teatr Wspólczesny", "https://pl.wikipedia.org/wiki/Teatr_Wsp%C3%B3%C5%82czesny_w_Szczecinie", 53.430125, 14.564666, "https://upload.wikimedia.org/wikipedia/commons/4/4a/PolandSzczecinSeaMuseum.JPG")
+        );
+
+        dodaj(
+                new Monument("Rejencja Szczecińska, ob. Urząd Wojewódzki", "https://pl.wikipedia.org/wiki/Budynek_Urz%C4%99du_Wojew%C3%B3dzkiego_w_Szczecinie", 53.431198, 14.566181, "https://upload.wikimedia.org/wikipedia/commons/0/05/Urz%C4%85d_Wojew%C3%B3dzki_Szczecin.jpg")
+        );
+
+        dodaj(
+                new Monument("Kino Kosmos", "Kino Kosmos", 53.427044, 14.544917, "http://bi.gazeta.pl/im/9a/a0/be/z12492954Q,Kino-Kosmos-w-Szczecinie.jpg")
+        );
+
+        dodaj(
+                new Monument("Willa, ob. Szczecińska Agencja Artystyczna", "Willa, ob. Szczecińska Agencja Artystyczna", 53.43352, 14.539372, "http://www.dioblina.eu/files/dioblina/styles/fullscreen/public/ugl/0/0/1/willa-ob-szczecinska-agencja-artystyczna-102090.jpg")
+        );
+
+        dodaj(
+                new Monument("Plebania kościoła p.w. św. Jakuba", "http://encyklopedia.szczecin.pl/wiki/Willa_przy_alei_Wojska_Polskiego_113", 53.44085, 14.53224, "http://encyklopedia.szczecin.pl/images/0/05/WKZ_Wojska_Polskiego_113_2.JPG")
+        );
+
+        dodaj(
+                new Monument("Pałac, ob. Klub 13 Muz", "https://pl.wikipedia.org/wiki/Dom_Kultury_13_Muz", 53.428186, 14.55416, "https://upload.wikimedia.org/wikipedia/commons/8/89/13_Muz.1.JPG")
+        );
+
+        dodaj(
+                new Monument("Wieża widokowa (d. wieża Bismarcka)", "https://pl.wikipedia.org/wiki/Wie%C5%BCa_Goc%C5%82awska", 53.4285438, 14.5528116, "https://upload.wikimedia.org/wikipedia/commons/3/34/Bismarckturm-Stettin-2013.JPG")
+        );
+
+        dodaj(
+                new Monument("Kościół ewangelicki, ob. rzym.-kat. par. p.w. Św. Ducha", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Jana_Ewangelisty_w_Szczecinie", 53.380284, 14.633902,  "https://upload.wikimedia.org/wikipedia/commons/f/f3/1009_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw_Jana_Ewangelisty_Szczecin.jpg")
+        );
+
+        dodaj(
+                new Monument("Zespół kościoła ewangelickiego p.w.Krzyża Świętego, ob. rzym.-kat. par. p.w. Św. Rodziny", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Rodziny_w_Szczecinie", 53.439463, 14.536257, "https://upload.wikimedia.org/wikipedia/commons/8/8e/Szczecin_Kosciol_sw._Rodziny_1.jpg")
+        );
+
+        dodaj(
+                new Monument("Plac Tobrucki, d. Plac Ratuszowy (Marktplatz)", "http://encyklopedia.szczecin.pl/wiki/Plac_Ratuszowy", 53.4214986, 14.5533364, "https://media-cdn.tripadvisor.com/media/photo-s/08/1c/20/8a/plac-tobrucki.jpg")
+        );
+
+
+}
 
 
     @Override
