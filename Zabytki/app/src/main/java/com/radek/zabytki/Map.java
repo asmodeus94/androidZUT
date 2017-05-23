@@ -14,6 +14,8 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     MySQLite mySQLite;
+    Monument monument;
+    LatLng nowy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +41,27 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+
+        for (int i = 1; i <= mySQLite.lista().getCount(); i++){
+            monument = mySQLite.pobierz(i);
+
+            nowy = new LatLng(monument.getLongitude(), monument.getLatitude());
+
+
+
+            mMap.addMarker(new MarkerOptions()
+                    .position(nowy)
+                    .title(monument.getName())
+                    .snippet(monument.getDescription()));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(nowy, 13));
+
+            //mMap.moveCamera(CameraUpdateFactory.newLatLng(nowy));
+
+        //LatLng sydney = new LatLng(-34, 151);
+        //mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        }
+
     }
 }
