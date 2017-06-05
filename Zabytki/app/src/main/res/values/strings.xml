@@ -10,5 +10,13 @@
     <string name="button3">Guzik 3</string>
     <string name="button4">Guzik 4</string>
     <string name="title_activity_map">Map</string>
-
+    <string name="permissionExplanation">Aplikacja na prawdę potrzebuje dostępu do lokalizacji.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">No</string>
+    <string name="permissionPermanentlyDeclined">Odrzuciłeś na stałe pozwolenie na lokalizację.
+        Proszę zmień ustawienia dostępu.</string>
+    <string name="switchOnLocationShort">Wygląda na to, że usługa lokalizacji jest w tej chwili wyłączona.
+        Aplikacja do poprawnego działania potrzebuje do niej dostęp. Żeby kontynuować naciśnij OK.</string>
+    <string name="switchOnLocationLong">Wygląda na to, że usługa lokalizacji jest w tej chwili wyłączona.
+        Aplikacja do poprawnego działania potrzebuje do niej dostępu. Żeby kontynuować naciśnij OK i odblokuj usługę lokalizacji.</string>
 </resources>
