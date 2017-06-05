@@ -462,8 +462,170 @@ public class MySQLite extends SQLiteOpenHelper {
         dodaj(
                 new Monument("Zespół dworski", "http://szczecin.wyborcza.pl/szczecin/56,34939,10849918,dworek-i-kosciol,,2.html?disableRedirects=true", 53.400939, 14.489629,"")
         ,db);
+        //Kinga M
+        dodaj(
+                new Monument("Kościół ewangelicki, ob. rzym.-kat. par. p.w. Najświętszego Serca Pana Jezusa", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Naj%C5%9Bwi%C4%99tszego_Serca_Pana_Jezusa_w_Szczecinie",53.427181,14.548556,"https://upload.wikimedia.org/wikipedia/commons/6/63/Szczecin_Kosciol_NSPJ.jpg")
+                ,db);
 
-}
+        dodaj(
+                new Monument("Park miejski Różanka", "https://pl.wikipedia.org/wiki/Ogr%C3%B3d_R%C3%B3%C5%BCany_w_Szczecinie",53.447804,14.523943,"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ogr%C3%B3d_R%C3%B3%C5%BCany_w_Szczecinie_wlz_3.JPG/1280px-Ogr%C3%B3d_R%C3%B3%C5%BCany_w_Szczecinie_wlz_3.JPG")
+                ,db);
+
+        dodaj(
+                new Monument("Zamek Książąt Pomorskich w Szczecinie", "https://pl.wikipedia.org/wiki/Zamek_Ksi%C4%85%C5%BC%C4%85t_Pomorskich_w_Szczecinie",53.4262776,14.5602091,"https://upload.wikimedia.org/wikipedia/commons/9/90/26.Zamek_Ksi%C4%85%C5%BC%C4%85t_Pomorskich-widok_z_katedry1.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Czerwony Ratusz , ob. Urząd Morski", "https://pl.wikipedia.org/wiki/Czerwony_Ratusz_w_Szczecinie",53.421949,14.552135,"https://upload.wikimedia.org/wikipedia/commons/f/f9/CzerwonyRatuszWSzczecinie.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół gmachów władz Prowincji Pomorskiej", "https://pl.wikipedia.org/wiki/Urz%C4%85d_Miasta_Szczecin",53.437984,14.5422603,"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/1311_Urz%C4%85d_Miejski_Szczecin_ZS.jpg/1920px-1311_Urz%C4%85d_Miejski_Szczecin_ZS.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół budynków straży pożarnej", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Firlika_Straz_Pozarna.jpg",53.440953,14.574139,"https://upload.wikimedia.org/wikipedia/commons/f/f7/Szczecin_ul_Firlika_Straz_Pozarna.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Liceum Fundacji Salem, ob. specjalny ośrodek wychowawczy nr 2", "https://pl.wikipedia.org/wiki/Wikipedia:Wiki_Lubi_Zabytki/zachodniopomorskie/Szczecin/Szczecin",53.433674,14.529573,"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/0904_Gim_Mariac_Szczecin.jpg/1200px-0904_Gim_Mariac_Szczecin.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Szkoła, ob. Centrum Doskonalenia Nauczycieli", "https://pl.wikipedia.org/wiki/Historia_o%C5%9Bwiaty_w_Gryficach",53.43204,14.537529,"https://upload.wikimedia.org/wikipedia/commons/c/c1/Zachodniopomorska_Szko%C5%82a_Biznesu_w_Gryficach.JPG")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół fabryki spirytusu i drożdży F. Crepina", "https://pl.wikipedia.org/wiki/Wikiprojekt:Wiki_Lubi_Zabytki/wykazy/wojew%C3%B3dztwo_zachodniopomorskie/Szczecin/NID",53.413335,14.545976,"http://www.wszczecinie.pl/thumb/articles/848-1da4ea020bdc1ec214bef054bb8b11e7.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół fabryki spirytusu, likierów i drożdży O.Lefevre'a", "http://encyklopedia.szczecin.pl/wiki/Zabudowa_fabryczna_przy_ulicy_Kolumba",53.416439,14.548533,"http://encyklopedia.szczecin.pl/images/f/f0/Obiekt_brak.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół zajezdni tramwajowej", "https://pl.wikipedia.org/wiki/Tramwaje_w_Szczecinie",53.417057,14.549153,"https://upload.wikimedia.org/wikipedia/commons/3/3c/Wyspa_Jask%C3%B3%C5%82cza_podstacja_transformatorowa.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół domu", "https://pl.wikipedia.org/wiki/Wikipedia:Wiki_Lubi_Zabytki/zachodniopomorskie/Szczecin/Szczecin",53.438232,14.531442,"http://encyklopedia.szczecin.pl/images/f/f0/Obiekt_brak.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Kamienica Loitzów, ob. Liceum Sztuk Plastycznych", "https://pl.wikipedia.org/wiki/Kamienica_Loitz%C3%B3w",53.425262,14.559382,"https://pl.wikipedia.org/wiki/Kamienica_Loitz%C3%B3w#/media/File:PolandSzczecinLoitz.JPG")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół spichrzy", "https://pl.wikipedia.org/wiki/Spichlerz",53.425242,14.5599227,"https://pl.wikipedia.org/wiki/Spichlerz#/media/File:2015_Pa%C5%82ac_Sarny_w_%C5%9Acinawce_G%C3%B3rnej,_spichrz_02.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Dom", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Labedzia_15_dom.jpg",53.455885,14.541467,"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Szczecin_ul_Labedzia_15_dom.jpg/800px-Szczecin_ul_Labedzia_15_dom.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Kamienica", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Malczewskiego_34_zabytek.jpg",53.4349969,14.556882,"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Szczecin_ul_Malczewskiego_34_zabytek.jpg/622px-Szczecin_ul_Malczewskiego_34_zabytek.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Szkoła im. Elżbiety, ob. LO nr XII", "https://pl.wikipedia.org/wiki/Plik:Kolumny_przed_wejsciem_do_budynku_Zespo%C5%82u_Szk%C3%B3%C5%82_Sportowych_Szczecin._ul._Ma%C5%82opolska_22.jpg",53.427876,14.562525,"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Kolumny_przed_wejsciem_do_budynku_Zespo%C5%82u_Szk%C3%B3%C5%82_Sportowych_Szczecin._ul._Ma%C5%82opolska_22.jpg/800px-Kolumny_przed_wejsciem_do_budynku_Zespo%C5%82u_Szk%C3%B3%C5%82_Sportowych_Szczecin._ul._Ma%C5%82opolska_22.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół willowy", "http://encyklopedia.szczecin.pl/wiki/Willa_przy_ulicy_Matejki_8",53.436829,14.560523,"https://upload.wikimedia.org/wikipedia/commons/8/84/Szczecin_ul_Matejki_8_willa.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Teren Starego Miasta", "https://pl.wikipedia.org/wiki/Stare_Miasto_(Szczecin)",53.4285438,14.5528116,"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/1009_Rynek_Sienny_Szczecin_SZN.jpg/1920px-1009_Rynek_Sienny_Szczecin_SZN.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Kościół ewangelicki, ob. rzym.-kat. par. p.w. św. Kazimierza", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Kazimierza_w_Szczecinie",53.453762,14.531347,"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Szczecin_ul_Broniewskiego_Kosciol_sw_Kazimierza.jpg/800px-Szczecin_ul_Broniewskiego_Kosciol_sw_Kazimierza.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół szkolny", "http://gimnazjumnr6.szczecin.pl/Nowastrona/index.php",53.449252,14.535479,"http://szkolnictwo.pl/zdj/PB/PB0301.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Bank", "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Ziemstwa_Pomorskiego",53.426859,14.550905,"https://upload.wikimedia.org/wikipedia/commons/e/e4/Szczecin_Palac_Ziemstwa_1.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Poczta", "https://pl.wikipedia.org/wiki/Gmach_przy_alei_Niepodleg%C5%82o%C5%9Bci_41/42_w_Szczecinie",53.426438,14.550663,"https://upload.wikimedia.org/wikipedia/commons/a/aa/Szczecin_al_Niepodleglosci_41_42_zabytek.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Loża masońska Pod Trzema Złotymi Kotwicami, ob. dom kultury", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Partyzantow_DKK.jpg",53.423865,14.5497,"https://upload.wikimedia.org/wikipedia/commons/c/ce/Szczecin_ul_Partyzantow_DKK.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół gimnazjum, ob. biblioteka", "https://pl.wikipedia.org/wiki/Ksi%C4%85%C5%BCnica_Pomorska_im._Stanis%C5%82awa_Staszica_w_Szczecinie",53.4285438,14.5528116,"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ksiaznica_Pomorska_w_Szczecinie_%283%29.jpg/1280px-Ksiaznica_Pomorska_w_Szczecinie_%283%29.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Szkoła Rzemiosł Budowlanych, ob. Wydziału Inżynierii PS", "http://tme.d2.pl/index.php?option=com_content&view=article&id=48&Itemid=58",53.425239,14.534938,"https://lh6.googleusercontent.com/-DrmT4kf75Rw/To3imiHexBI/AAAAAAAACcM/J8mCP65wW90/s600/Zdj%C4%99cie4141.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół szpitala", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Piotra_Skargi_Szpital_Wojskowy.jpg",53.443237,14.542225,"https://upload.wikimedia.org/wikipedia/commons/5/55/Szczecin_ul_Piotra_Skargi_Szpital_Wojskowy.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Fabryka czekolady, ob. Wojewódzka Stacja Sanitarno-epdemiologiczna", "http://encyklopedia.szczecin.pl/wiki/Budynek_Sanepidu_przy_ulicy_Spedytorskiej",53.415043,14.555347,"http://encyklopedia.szczecin.pl/images/1/1e/Sanepid_1.JPG")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół gmachów Wyższej Szkoły Morskiej", "https://pl.wikipedia.org/wiki/Akademia_Morska_w_Szczecinie",53.428277,14.563576,"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/PolandSzczecinMAcademy.JPG/1280px-PolandSzczecinMAcademy.JPG")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół szpitala Betania", "https://pl.wikipedia.org/wiki/Zak%C5%82ad_opieku%C5%84czy_%22Bethanien%22",53.4388773,14.530012,"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Szczecin_ul_Wawrzyniaka_7d-g.jpg/1280px-Szczecin_ul_Wawrzyniaka_7d-g.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół gimnazjum im. króla Wilhelma, ob. zespół szkół specjalnych nr 4", "https://pl.wikipedia.org/wiki/Liceum_Pedagogiczne_nr_1_w_Szczecinie",53.436501,14.546081,"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Uniwersytet_Szczecinski_Wydzial_Matematyczno_Fizyczny.jpg/1280px-Uniwersytet_Szczecinski_Wydzial_Matematyczno_Fizyczny.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Kamienica", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Zolkiewskiego_2_zabytek.jpg",53.430567,14.537101,"https://upload.wikimedia.org/wikipedia/commons/8/8a/Szczecin_ul_Zolkiewskiego_2_zabytek.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół zajezdni tramwajowej Niemierzyn", "https://pl.wikipedia.org/wiki/Niemierzyn_(zajezdnia_tramwajowa)",53.44766,14.540075,"https://pl.wikipedia.org/wiki/Niemierzyn_(zajezdnia_tramwajowa)#/media/File:Szczecin_Zajezdnia_Tramwajowa_Niemierzyn.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Willa", "https://pl.wikipedia.org/wiki/Plik:Szczecin_Dabie_ul_Zaglowa_willa.jpg",53.40119,14.66658,"https://upload.wikimedia.org/wikipedia/commons/f/f3/Szczecin_Dabie_ul_Zaglowa_willa.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół domu opieki dla sierot (dom macierzysty diakonis Kinderhail)", "http://otwartezabytki.pl/pl/relics/69582-szczecin-dom-macierzysty-diakonis-kinderhail-ob-panstwowy-dom-dziecka-zielony-dwor",53.3752592,14.6404942,"https://d-nm.ppstatic.pl/k/r/d8/1d/54b038c5283ad_o.jpg?1488288330")
+                ,db);
+
+        dodaj(
+                new Monument("Skwer miejski - pl. im. Janiny Szczerskiej", "http://encyklopedia.szczecin.pl/wiki/Plac_im._Janiny_Szczerskiej",53.426248,14.536261,"http://encyklopedia.szczecin.pl/images/thumb/0/01/Szczecin_pl_Janiny_Szczerskiej.jpg/240px-Szczecin_pl_Janiny_Szczerskiej.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Willa", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Metalowa_42_zabytek.jpg",53.361592,14.589262,"https://upload.wikimedia.org/wikipedia/commons/3/3c/Szczecin_ul_Metalowa_42_zabytek.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Budynek d. restauracji Tiergarten", "https://commons.wikimedia.org/wiki/File:Szczecin_ul_Chmielewskiego_18_zabytek.jpg",53.402195,14.532476,"https://upload.wikimedia.org/wikipedia/commons/2/2c/Szczecin_ul_Chmielewskiego_18_zabytek.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Zespół szkół", "https://pl.wikipedia.org/wiki/Plik:Szczecin_ul_Boleslawa_Smialego_42_43.jpg",53.4309052,14.5404249,"https://upload.wikimedia.org/wikipedia/commons/f/fa/Szczecin_ul_Boleslawa_Smialego_42_43.jpg")
+                ,db);
+
+        dodaj(
+                new Monument("Wieża ciśnień, ob. kościół rzym.-kat. p.w. Matki Boskiej Jasnogórskiej", "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_Matki_Bo%C5%BCej_Jasnog%C3%B3rskiej_w_Szczecinie",53.405737,14.523145,"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Szczecin%2C_ko%C5%9Bci%C3%B3%C5%82_MB_Jasnog%C3%B3rskiej.jpg/1280px-Szczecin%2C_ko%C5%9Bci%C3%B3%C5%82_MB_Jasnog%C3%B3rskiej.jpg")
+                ,db);
+
+
+
+    }
 
 
     @Override
