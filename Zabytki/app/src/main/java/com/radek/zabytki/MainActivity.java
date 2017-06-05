@@ -12,11 +12,13 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     MySQLite mySQLite;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intencja = new Intent(getApplicationContext(), Map.class);
+                startActivity(intencja);
+            }
+        });
+
+        final Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intencja = new Intent(getApplicationContext(), MonumentsList.class);
                 startActivity(intencja);
             }
         });
